@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>F-Club</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/images/logo.png"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="row">
+                <header id="header-main">
+                    <div class="col-xs-1 col-xs-offset-2 col-sm-2 col-sm-offset-1 col-md-1 col-md-offset-2 col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1 text-center">
+                        <div class="tooltiptext" id="lang-drop">English <span class=""></span></div>
+                    </div>
+                    <div class="col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-6 col-md-2 col-md-offset-7 col-lg-2 col-lg-offset-7 text-right">
+                        <input id="btnSignIn" type="button" value="Sign In">
+                    </div>
+                </header>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-1 col-xs-offset-2 col-sm-2 col-sm-offset-1 col-md-1 col-md-offset-2 col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1">
+                    <figure id="logo-img">
+                        <img src="assets/images/logo.png" alt="">
+                    </figure>
+                </div>
+                <div class="col-xs-6 col-xs-offset-1 col-sm-7 col-sm-offset-0 col-md-5 col-md-offset-0 col-lg-5 col-lg-offset-0 text-left">
+                    <p id="logo-text">f <img src="assets/images/heart.png" alt=""> club</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+                    <section id="content-container">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-7" style="margin: 0 0 0 15px;">
+                                <div id="signin-block">
+                                    <h1>Meet FashionTV Models</h1>
+                                    <p id="description">Chat, meet and find models, <br>celebrities and fashion icons
+                                        now!<br> Get discovered and become famous.</p>
+                                    <div id="fb-signin">
+                                        <span><img src="assets/images/social.png" alt=""></span>
+                                        <span>Sign in via Facebook</span>
+                                    </div>
+                                    <p class="warning">We never post on your behalf.</p>
+                                </div>
+                                <div id="options" class="text-center">Other sign in options</div>
+                            </div>
+                            <div class="col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-0">
+                                <div id="separator">
+                                    <div id="circle-box"><p>or</p></div>
+                                    <div id="hr-line"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4  col-lg-4" style="margin: 0 0 0 -15px;">
+                                <form action="" id="signupForm" method="post">
+
+                                    <div id="question1-block">
+                                        <div class="questions">
+                                            <p id="state-ques">Answer a few questions:</p>
+                                        </div>
+                                        <div>
+                                            <p id="state-sex">You are...</p>
+                                        </div>
+                                        <div class="gender">
+                                            <input id="btnMale" class="sex" type="button" value="Male" name="male">
+                                            <input id="btnFemale" class="sex" type="button" value="Female"
+                                                   name="female">
+                                        </div>
+                                    </div>
+
+                                    <div id="question2-block">
+                                        <div class="back-icon">
+                                        </div>
+                                        <div class="state-pos">
+                                            <p id="state-purpose"><img id="back2" src="assets/images/left-arrow.png"
+                                                                       alt="">You are here to...</p>
+                                        </div>
+                                        <div class="purpose">
+                                            <input id="btnChat" class="purposeof" type="button" value="Chat"
+                                                   name="chat">
+                                            <input id="btnFriends" class="purposeof" type="button"
+                                                   value="Make New Friends" name="friends">
+                                            <input id="btnDate" class="purposeof" type="button" value="Date"
+                                                   name="date">
+                                        </div>
+                                    </div>
+                                    <div id="question3-block">
+                                        <div class="back-icon">
+                                        </div>
+                                        <div class="state-pos">
+                                            <p id="state-date"><img id="back3" src="assets/images/left-arrow.png"
+                                                                    alt="">Date with...</p>
+                                        </div>
+                                        <div class="dating">
+                                            <input id="btnGuys" class="datewith" type="button" value="Guys" name="guys">
+                                            <input id="btnGirls" class="datewith" type="button" value="Girls"
+                                                   name="girls">
+                                            <input id="btnBoth" class="datewith" type="button" value="Both" name="both">
+                                        </div>
+                                    </div>
+
+                                    <div id="question4-block">
+                                        <div class="back-icon">
+                                        </div>
+                                        <div class="state-pos">
+                                            <p id="state-biodata"><img id="back4" src="assets/images/left-arrow.png"
+                                                                       alt="">Almost done...</p>
+                                        </div>
+                                        <div class="biodata">
+                                            <label for="inName" class="sr-only"></label>
+                                            <input id="inName" class="input-bio" type="text"
+                                                   placeholder="Your First Name" name="name" required>
+
+                                            <div id="dob">
+                                                <label for="dob-day" class="sr-only"></label>
+                                                <select id="dob-day" name="dday"></select>
+                                                <label for="dob-month" class="sr-only"></label>
+                                                <select id="dob-month" name="dmonth"></select>
+                                                <label for="dob-year" class="sr-only"></label>
+                                                <select id="dob-year" name="dyear"></select>
+                                            </div>
+
+                                            <label for="inLocation" class="sr-only"></label>
+                                            <input id="inLocation" class="input-bio" type="text"
+                                                   placeholder="Type your location" name="location" required>
+
+                                            <label for="inEmail" class="sr-only"></label>
+                                            <input id="inEmail" class="input-bio" type="email" required
+                                                   placeholder="Email address" name="email">
+
+                                            <input id="btnCreate" class="datewith" type="submit" value="Create Account">
+                                            <p class="warning">By continuing, you're confirming that you've read and
+                                                agree to our Terms and Conditions, Privacy Policy and Cookie Policy</p>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div id="pointers" class="text-center">
+                                    <span>&nbsp;</span>
+                                    <span>&nbsp;</span>
+                                    <span>&nbsp;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div id="app-links">
+                        <span id="apple">
+                            <img src="assets/images/applestore-logo.png" alt=""> <strong>App </strong> Store</span>
+                        <span id="google">
+                            <img src="assets/images/googleplay-logo.png" alt=""> <strong>Google</strong> Play</span>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <footer id="footer-main">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-8">
+                                <nav id="navigation-block">
+                                    <ul id="navigation-bar">
+                                        <li><a href="#">Terms</a></li>
+                                        <li><a href="#">Privacy</a></li>
+                                        <li><a href="#">Quick links</a></li>
+                                        <li><a href="#">Cities</a></li>
+                                        <li><a href="#">Help</a></li>
+                                    </ul>
+                                </nav>
+                                <span id="copyright">2016 &copy; F-Club</span>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-4">
+                                <div id="social" class="text-right">
+                                    <div class="social-link text-left" id="facebook-link">
+                                        <img src="assets/images/social-1.png" alt="">
+                                        <p>Like</p>
+                                    </div>
+                                    <div class="social-link text-left" id="google-link">
+                                        <img src="assets/images/social-2.png" alt="">
+                                        <p>1</p>
+                                    </div>
+                                    <div class="social-link text-left" id="twitter-link">
+                                        <img src="assets/images/social-3.png" alt="">
+                                        <p>Tweet</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- jQuery library -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>

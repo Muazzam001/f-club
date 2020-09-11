@@ -1,0 +1,383 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff !important;
+    background: url("../images/background.jpg") no-repeat 0 0  /cover;
+}
+
+#header-main {
+    padding-top: 25px;
+}
+
+#header-main #lang-drop {
+    /*color: #c2c2c1;*/
+    border-bottom: 1px dotted #c2c2c1;
+}
+
+.language-list {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 15px 0;
+    margin: 15px 10px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.language-column {
+    width: 120px;
+    padding: 0 0 0 15px;
+    border-right: 1px solid rgba(0, 0, 0, .15);
+}
+
+.language-column:last-child {
+    border-right: none;
+}
+
+.language-item {
+    position: relative;
+    width: 100px;
+    margin: 3px 0 0;
+    text-overflow: ellipsis;
+    list-style: none;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+#header-main input#btnSignIn {
+    margin-right: 20px;
+    padding: 5px 15px;
+    border-radius: 17px;
+    color: #c2c2c1;
+    border: 2px solid #c2c2c1;
+    background-color: transparent;
+}
+
+/*#logo-img{
+    padding: 10px 5px 7px 4px;
+    background-color: #da2214;
+    text-align:center;
+    border-radius: 15px;
+}
+*/
+#logo-img img {
+    width: 70px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+#logo-text {
+    font-size: 450%;
+    vertical-align: middle;
+    margin-top: -15px;
+}
+
+#logo-text p {
+    padding: 0;
+    margin: 0;
+}
+
+p#logo-text > img {
+    width: 15px;
+    height: 15px;
+}
+
+#content-container {
+    min-height: 500px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.border {
+    border: 1px solid #fff;
+}
+
+#signin-block, #question1-block {
+    margin-top: 150px;
+    text-align: center;
+}
+
+#fb-signin {
+    margin: 0 auto;
+    padding: 5px;
+    width: 200px;
+    min-height: 30px;
+    border-radius: 50px;
+    background-color: #3464D4;
+}
+
+p#description, p#state-sex,
+p#state-purpose, p#state-date,
+p#state-biodata {
+    font-size: 160%;
+}
+
+p#warning {
+    margin-top: 10px;
+    padding: 0 10px;
+    font-size: 70%;
+}
+
+#fb-signin span > img {
+    width: 30px;
+    height: 30px;
+}
+
+#question1-block, #question2-block,
+#question3-block, #question4-block {
+    color: #c2c2c1;
+}
+
+#question2-block, #question3-block,
+#question4-block {
+    margin-top: 50px;
+    margin-left: -25px;
+    text-align: center;
+}
+
+p#state-ques {
+    font-size: 120%;
+}
+
+.state-pos {
+    height: 40px;
+}
+
+.state-pos p {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.state-pos p > img {
+    text-align: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+input:focus, select:focus {
+    outline: none;
+}
+
+.gender input[type=button], .purpose input[type=button], .dating input, .biodata input {
+    display: block;
+    min-width: 150px;
+    padding: 5px;
+    margin: 15px auto;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 2px solid #c2c2c1;
+    background-color: transparent;
+}
+
+.purpose, .dating {
+    margin-top: 50px;
+}
+
+.purpose input {
+    min-width: 200px;
+}
+
+.biodata input {
+    min-width: 100px;
+    font-weight: normal;
+    padding: 5px 10px;
+}
+
+.biodata input[type=button] {
+    font-weight: bold;
+}
+
+.biodata div#dob {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.biodata select {
+    display: inline-block;
+    padding: 5px 0;
+    margin: 5px 0;
+    border-radius: 15px;
+    border: 2px solid #c2c2c1;
+    background-color: transparent;
+}
+
+.biodata option {
+    color: #000;
+    text-align: center;
+    background-color: transparent;
+}
+
+#options, #pointers {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    vertical-align: bottom;
+}
+
+#options {
+    font-size: 90%;
+}
+
+#pointers span {
+    width: 10px;
+    height: 10px;
+    /*border-radius: 15px;*/
+    background-color: #484848;
+}
+
+#separator {
+    margin: 0 auto;
+}
+
+#hr-line, #circle-box {
+    display: inline-block;
+}
+
+#circle-box {
+    width: 40px;
+    height: 40px;
+    color: #c6c6c6;
+    text-align: center;
+    margin-top: 150px;
+    vertical-align: top;
+    border-radius: 50px;
+    background-color: #fff;
+    position: relative;
+    z-index: 5;
+}
+
+#circle-box p {
+    padding: 0;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+#hr-line {
+    width: 1px;
+    min-height: 500px;
+    height: 100%;
+    margin-left: -25px;
+    vertical-align: middle;
+    background-color: #c6c6c6;
+    position: relative;
+    z-index: 2;
+    /*border:1px dotted green;*/
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #hr-line {
+        width: 1px;
+        min-height: 500px;
+        vertical-align: middle;
+        background-color: #c6c6c6;
+        position: relative;
+        z-index: 2;
+    }
+}
+
+#app-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#app-links span {
+    margin: 0 15px;
+    vertical-align: middle;
+    /*font-size:;*/
+}
+
+#app-links img {
+    width: 25px;
+    height: 25px;
+    margin-top: -5px;
+    vertical-align: middle;
+}
+
+#footer-main {
+}
+
+#navigation-block {
+    display: inline-block;
+    margin: 0 0 15px -50px;
+}
+
+#navigation-bar li {
+    margin: 0 10px;
+    display: inline-block;
+    list-style: none;
+}
+
+#navigation-bar li > a {
+    color: #fff;
+}
+
+#navigation-bar li > a:hover {
+}
+
+#copyright {
+    display: inline-block;
+}
+
+.social-link {
+    min-width: 50px;
+    height: 25px;
+    padding: 3px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 80%;
+}
+
+.social-link p, .social-link img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social-link p {
+    padding: 0;
+    margin: 0;
+}
+
+.social-link img {
+    margin: 3px;
+    width: 15px;
+    height: 15px;
+}
+
+#facebook-link {
+    color: #fff;
+    background-color: #3D57A3;
+}
+
+#google-link {
+    background-color: #fff;
+}
+
+#twitter-link {
+    color: #fff;
+    background-color: #1B95E0;
+}
